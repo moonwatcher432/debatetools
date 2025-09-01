@@ -1,5 +1,4 @@
 import streamlit as st
-from tools import calculator
 
 
 def main():
@@ -21,11 +20,12 @@ def main():
         ["Tool 1", "Tool 2"]
     )
     
-    if tool_choice == "Tool 1":
-        result = calculator.run(1, 2)
+    # if tool_choice == "Tool 1":
+    #     result = calculator.run(1, 2)
 
 
 if __name__ == "__main__":
     main()
+
 
     
