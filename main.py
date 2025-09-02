@@ -5,7 +5,7 @@ def main():
     st.set_page_config(page_title="Debate Tools", layout="wide")
     
     # Main webpage format
-    st.markdown(f'''**This is a :red[bolded]: title**
+    st.markdown(f'''**This is a :red[bolded] title**
     
     ''')
     
