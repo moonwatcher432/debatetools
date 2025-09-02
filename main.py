@@ -20,7 +20,7 @@ st.write("Current list of tools:")
 for i, (tool, is_available) in enumerate(tools.items(), start=1):
     status = "Available" if is_available else "Unavailable"
     #st.write(f"{i}. {tool.capitalize()}: {status}")
-    st.page_link(f"pages/{tool}.py", label=f"{i}.:blue[{tool.capitalize()}]")
+    st.page_link(f"pages/{tool}.py", label=f":blue[{i}._{tool.capitalize()}]")
 
 
     
