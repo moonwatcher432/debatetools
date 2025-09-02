@@ -10,13 +10,17 @@ def main():
     }
     
     # Main webpage format
-    st.markdown(f'''#Debate Tools
-    ###Made by logan madler
+    # st.markdown(f'''#Debate Tools
+    # ###Made by logan madler
     
-    Current list of available tools:
-    {print_tools(available_tools)}
+    # Current list of available tools:
+    # {print_tools(available_tools)}
     
-    ''')
+    # ''')
+    st.markdown("#Debate Tools")
+    st.markdown("###made by logan madler")
+    st.write("\nCurrent list of available tools:")
+    print_tools(available_tools)
     
 def print_tools(tools: dict) -> str:
     tool_list = []
