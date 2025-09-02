@@ -11,11 +11,10 @@ tools: dict = {
     "search": False
 }
 
-"""#Debate Tools
-###made by logan madler
+st.title("Debate Tools")
+st.subheader("made by logan madler")
 
-Current list of tools:
-"""
+"Current list of tools:"
 # Print tool list
 for i, (tool, is_available) in enumerate(tools.items(), start=1):
     status = "Available" if is_available else "Unavailable"
