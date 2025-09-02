@@ -19,10 +19,8 @@ st.write("Current list of tools:")
 # Print tool list
 for i, (tool, is_available) in enumerate(tools.items(), start=1):
     status = "Available" if is_available else "Unavailable"
-    
-    st.write(f"{i}. {tool.capitalize()}: {status}")
-    #st.link_button(tool.capitalize(), f"https://debatetools.streamlit.app/{tool}")
-    st.page_link(f"pages/{tool}.py", label=f":blue[{tool.capitalize()}]")
+    #st.write(f"{i}. {tool.capitalize()}: {status}")
+    st.page_link(f"pages/{tool}.py", label=f"{i}. :blue[{tool.capitalize()}]")
 
 
     
