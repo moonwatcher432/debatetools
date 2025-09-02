@@ -11,7 +11,7 @@ tools: dict = {
     "search": False
 }
 
-st.title("Debate Tools")
+st.title(":red[Debate] Tools")
 st.subheader("made by logan madler")
 
 "Current list of tools:"
