@@ -22,7 +22,7 @@ for i, (tool, is_available) in enumerate(tools.items(), start=1):
     
     st.write(f"{i}. {tool.capitalize()}: {status}")
     #st.link_button(tool.capitalize(), f"https://debatetools.streamlit.app/{tool}")
-    st.page_link(f"{tool}.py", label=tool.capitalize())
+    st.page_link(f"pages/{tool}.py", label=tool.capitalize())
 
 
     
