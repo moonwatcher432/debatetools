@@ -6,7 +6,7 @@ from helpers import markdown as md
 
 st.set_page_config(page_title="Debate Tools", layout="wide")
 
-available_tools: dict = {
+tools: dict = {
     "calculator": True,
     "search": False
 }
